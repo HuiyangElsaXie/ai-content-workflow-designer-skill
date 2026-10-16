@@ -1,5 +1,7 @@
 # AI Content Workflow Designer / AI 内容工作流设计
 
+先看 [虚构内容流程与交接示例 / workflow example](examples/fictional-workflow.md)。[流程模板](assets/workflow-template.md) · [Skill 入口](SKILL.md)。
+
 个人自用，持续更新。  
 For personal use. Continuously updated.
 
@@ -12,6 +14,10 @@ Use this folder as a standalone skill in an agent that supports SKILL.md, or exp
 
 优先复用用户允许使用的已有资料，记录来源，只追问关键缺口。示例全部虚构。
 Reuse permitted existing context with provenance; ask only for critical gaps. All examples are fictional.
+
+示例请求 / Request: “把我获准使用的活动资料整理成五步内容工作流，逐步列输入来源、负责人、质检与失败交接；给出可复用提示词，并把试跑标为待执行。” / “Map my permitted campaign material into five steps with sourced inputs, owners, quality checks and failure handoffs; include reusable prompts and a proposed dry run.”
+
+[VALIDATION.json](VALIDATION.json) 保留此前的结构与文件哈希快照；本次 README 导航修改未重跑或重写该历史记录。 / The earlier structural/hash snapshot is retained; these README edits do not represent a new model or execution test.
 
 ## 文件 / Files
 - [SKILL.md](SKILL.md): agent instructions / 指令入口
