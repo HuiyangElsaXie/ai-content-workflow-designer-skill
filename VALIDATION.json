@@ -1,0 +1,41 @@
+{
+  "status": "structural checks only; no behavioral/model testing performed",
+  "checks": {
+    "required_artifacts_present": true,
+    "license_copy_present": true
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "00c64f14d4e31e6e04abf77366c78fc61706862af18e1a22f5ccd1268fc75f18"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "caf6445a4ffe977cebcfc19b665a3f0f3dece9614a0616b13c066b885a22f0d9"
+    },
+    {
+      "path": "ABOUT.md",
+      "sha256": "6f7ee3ffd1793410762eaaa0fda11c66dfee04bfdb63c49ed603abbc956aa3c7"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "c0544f3a4f83d9d578d3539e81365f5031ed6cf4a56045e56cd571dc969c87d7"
+    },
+    {
+      "path": "assets/workflow-template.md",
+      "sha256": "42ebde5c763c55ccfe96ee51dc874dd9b2392461f174af15bffbc463e3bf0c00"
+    },
+    {
+      "path": "licenses/anthropic-Apache-2.0.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+    },
+    {
+      "path": "examples/fictional-workflow.md",
+      "sha256": "4b9334bbc486e843d01aece2b69242e95bfd3b286415a0ddf840380dc1546deb"
+    },
+    {
+      "path": "references/upstream/SKILL.md",
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
+    }
+  ]
+}
