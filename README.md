@@ -15,6 +15,22 @@ Use this folder as a standalone skill in an agent that supports SKILL.md, or exp
 优先复用用户允许使用的已有资料，记录来源，只追问关键缺口。示例全部虚构。
 Reuse permitted existing context with provenance; ask only for critical gaps. All examples are fictional.
 
+## 输入 / Inputs
+- 目标、受众、渠道、所需交付，以及期限、资源和工具／费用限制。 / Objective, audience, channel, deliverable, deadline, resources and tool/cost limits.
+- 获准的事实资料、来源及披露边界；语气偏好与事实分开。 / Permitted facts, provenance and disclosure limits; style guidance kept separate.
+- 已知负责人／审阅角色、现有流程与约束；缺失项可以明确未知。 / Known owners/review roles, existing process and constraints; unknowns may remain explicit.
+
+## 输出 / Outputs
+- 来源台账与 4–7 步流程：每步的输入、角色、动作、产物、验收和失败路线。 / Context ledger and 4–7 steps, each with inputs, role, action, artifact, acceptance and failure route.
+- AI 步骤的可复用提示词，以及事实、用途和风格三类质量门。 / Reusable AI-step prompts and factual, usefulness and style gates.
+- 版本交接、待决事项与低成本试跑建议；未执行或未检查保持相应状态。 / Versioned handoff, open decisions and proposed dry run; unrun tests and unchecked gates stay unrun/pending.
+
+## 设计流程 / Design flow
+1. **你 / You** 给出上述任务与资料，指定谁能确认事实和审批交接。 / Supply the brief and identify fact/approval owners.
+2. **AI** 整理台账和冲突；**你**裁决关键冲突，未解决的主张不能进入后续拟议写作。 / Build the ledger; you resolve material conflicts, while affected drafting remains held.
+3. **AI** 设计步骤、提示词、质量门和失败交接，核对输入 ID 确实存在。 / Design steps, prompts, gates and failure handoffs with valid ledger references.
+4. **AI** 交付流程设计；**你**审阅责任分配和验收条件，决定是否另行授权试跑。 / Receive the workflow design, review ownership/checks and decide whether to authorize a dry run.
+
 示例请求 / Request: “把我获准使用的活动资料整理成五步内容工作流，逐步列输入来源、负责人、质检与失败交接；给出可复用提示词，并把试跑标为待执行。” / “Map my permitted campaign material into five steps with sourced inputs, owners, quality checks and failure handoffs; include reusable prompts and a proposed dry run.”
 
 [VALIDATION.json](VALIDATION.json) 保留此前的结构与文件哈希快照；本次 README 导航修改未重跑或重写该历史记录。 / The earlier structural/hash snapshot is retained; these README edits do not represent a new model or execution test.
