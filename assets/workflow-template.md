@@ -7,6 +7,12 @@ Status: design draft; validation not run
 ## Context ledger
 | ID | Fact or style instruction | Source/date | Permission scope | Confidence / verify |
 |---|---|---|---|---|
+## Conflict and reference gate
+- Conflicting source IDs / both versions / owner decision:
+- Explicit resolution step before affected drafting; hold until confirmed:
+- All step/prompt IDs resolve to actual ledger entries; missing inputs stay input-needed:
+- Style changes wording only; no new scarcity, demand, quality or outcome facts:
+
 ## Steps
 | Step / owner | Inputs | Action / reusable prompt | Output | Check | Failure route |
 |---|---|---|---|---|---|

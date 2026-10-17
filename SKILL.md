@@ -22,6 +22,13 @@ Maintain a small context ledger: ID, fact or instruction, source/link or convers
 
 Use assets/workflow-template.md for the deliverable and examples/fictional-workflow.md for scope calibration. A design can finish with a blocked publication gate; don't fabricate missing evidence to mark it ready.
 
+## Drafting safeguards
+If content sources conflict, include an explicit owner/coordinator resolution step before affected drafting and fact checking. Keep both source versions and the decision needed; hold the affected claims until a confirmed source or explicit owner adjudication exists. Do not silently select a source because it is earlier, newer or attractive. Planning and unrelated supported content may continue.
+
+Every source/input ID cited by a step or reusable prompt must resolve to an actual Context ledger entry. Check references before handoff. With an empty ledger, write "facts once supplied" or "style guidance once supplied" and an input-needed route, not invented F1, a nonexistent style guide or a passed check.
+
+Style instructions may change wording, never facts. Exciting/exclusive/premium/in-demand tone does not establish scarce seats, demand, quality, popularity or sellout speed. Check prompts as well as final copy for those unsupported additions.
+
 ## Boundaries
 Do not send, publish, purchase tools, upload confidential inputs, or alter accounts as a side effect of planning. No special orchestration framework is required. Do not claim measured speed, conversion or quality improvements without a recorded comparison.
 

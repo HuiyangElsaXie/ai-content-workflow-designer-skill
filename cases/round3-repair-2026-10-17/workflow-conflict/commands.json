@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python UTF-8 text reads, JSON escaped output",
+      "files": [
+        "{REPO}/SKILL.md",
+        "{CASE}/brief.md",
+        "{CASE}/case.json"
+      ],
+      "outcome": "success; exit code 0",
+      "recording": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python UTF-8 text reads, JSON escaped output",
+      "files": [
+        "{REPO}/assets/workflow-template.md",
+        "{REPO}/examples/fictional-workflow.md"
+      ],
+      "outcome": "success; exit code 0",
+      "recording": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 3,
+      "tool": "functions.exec -> exec_command",
+      "operation": "write first response unchanged, then hash loaded skill files and write tool availability and command record",
+      "writes": [
+        "{CASE}/raw-response.md",
+        "{CASE}/tool-availability.md",
+        "{CASE}/commands.json"
+      ],
+      "hash_reads": [
+        "{REPO}/SKILL.md",
+        "{REPO}/assets/workflow-template.md",
+        "{REPO}/examples/fictional-workflow.md"
+      ],
+      "outcome": "raw-response.md and tool-availability.md writes and hash reads completed before command-log write; commands.json write success reported on stdout",
+      "recording": "contemporaneous script record; enclosing execution result confirms final write"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "configured_model": "gpt-6.1-sol",
+  "executor": "/root/r3_ai",
+  "reviewer": "/root/r3_review_a",
+  "input_authored_by": "root, separate from executor",
+  "first_answer_sha256": "e209578a9ec30cbe734a06f99711f84c0e361c5feb550b41811895fb58aaa287",
+  "overall_this_case_only": "PASS",
+  "path_redaction_only": true,
+  "originals_retained_locally": true,
+  "files": [
+    {
+      "path": "brief.md",
+      "original_sha256": "f1a23555f2ad4c9dee4f0edb6620c75c5661130986562e356704b75813ab7edf",
+      "exported_sha256": "f1a23555f2ad4c9dee4f0edb6620c75c5661130986562e356704b75813ab7edf",
+      "local_path_redacted": false
+    },
+    {
+      "path": "case.json",
+      "original_sha256": "74a37ddbc0f1a27e1b53151646e3921ae8b9664d2a0f315cdb72ca2930bc1d27",
+      "exported_sha256": "74a37ddbc0f1a27e1b53151646e3921ae8b9664d2a0f315cdb72ca2930bc1d27",
+      "local_path_redacted": false
+    },
+    {
+      "path": "commands.json",
+      "original_sha256": "cc253032cd263e7f9e357053a4bfff324db5a805ba182c0267a194d98ae6e1ad",
+      "exported_sha256": "eed867e96beccb1995e27c605aff994c8abd323218f720eae3c676d607df863c",
+      "local_path_redacted": true
+    },
+    {
+      "path": "FIRST-ANSWER.json",
+      "original_sha256": "bf7a8d47206d91a59f4a33b8748712793595cb58bca83fffa9255bddd6cda2e9",
+      "exported_sha256": "bf7a8d47206d91a59f4a33b8748712793595cb58bca83fffa9255bddd6cda2e9",
+      "local_path_redacted": false
+    },
+    {
+      "path": "raw-response.md",
+      "original_sha256": "e209578a9ec30cbe734a06f99711f84c0e361c5feb550b41811895fb58aaa287",
+      "exported_sha256": "e209578a9ec30cbe734a06f99711f84c0e361c5feb550b41811895fb58aaa287",
+      "local_path_redacted": false
+    },
+    {
+      "path": "tool-availability.md",
+      "original_sha256": "31ad9e880797ee2cc1a1dd548f1db622d6670434e943fb34a5fd6bee1e221c30",
+      "exported_sha256": "be34f7049f3760ddf053988a12c4ffdc3503e01f5e42b6c0f28999dcb0ad7b56",
+      "local_path_redacted": true
+    },
+    {
+      "path": "review/audit.json",
+      "original_sha256": "625953ac8e4582e25b08760f526088799edfa4273cc07ed804f2df369073213a",
+      "exported_sha256": "625953ac8e4582e25b08760f526088799edfa4273cc07ed804f2df369073213a",
+      "local_path_redacted": false
+    },
+    {
+      "path": "review/audit.md",
+      "original_sha256": "4945af4dab6680431d31c0ec3d2ba08fb08db690904a222db97e785194f65304",
+      "exported_sha256": "4945af4dab6680431d31c0ec3d2ba08fb08db690904a222db97e785194f65304",
+      "local_path_redacted": false
+    },
+    {
+      "path": "review/commands.json",
+      "original_sha256": "33b3f63491747476ac12ea1e68a0c151c7ce18c795c7dd29806fc5fc4d8cddf9",
+      "exported_sha256": "33b3f63491747476ac12ea1e68a0c151c7ce18c795c7dd29806fc5fc4d8cddf9",
+      "local_path_redacted": false
+    }
+  ]
+}

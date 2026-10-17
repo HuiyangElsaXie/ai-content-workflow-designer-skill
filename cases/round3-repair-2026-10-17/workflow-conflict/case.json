@@ -1,0 +1,13 @@
+{
+  "repo": "ai-content-workflow-designer-skill",
+  "scenario": "workflow-conflict",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "b67dd399e2384d97d82ef2170e8bd7066a516a10",
+  "skill_entry": "SKILL.md",
+  "loaded_rule_sha256": {
+    "SKILL.md": "6f90dbd755eccb884d09e01bdef6478ecbcfec6f2005039d2d7661a9ef2b7029",
+    "assets/workflow-template.md": "ec72002fc201a540ffb78967189900f2946500af6ee7f3168fd961ba581f2b36"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}
